@@ -1,0 +1,60 @@
+1. Reading a File:
+Write a program that opens a file, reads its contents, and prints them. Use the with statement to automatically close the file when you're done.
+
+Exercise:
+
+Create a text file called story.txt with some content.
+
+Write a Python program that reads the content of story.txt and prints it.
+
+Hint:
+Use the with open(...) as ...: statement.
+
+2. Writing to a File:
+Write a program that writes data to a file. Use the with statement to handle the file automatically when you're done writing.
+
+Exercise:
+
+Create a program that writes your name and age to a file called my_info.txt.
+
+Hint:
+Use with open(...) as ...: with 'w' mode for writing.
+
+3. Working with JSON Files:
+Read and write data in JSON format. JSON is a common format for storing data, and the with statement is great for working with files.
+
+Exercise:
+
+Create a Python dictionary with some key-value pairs (like {"name": "John", "age": 25}).
+
+Write the dictionary to a file called data.json.
+
+Read the content from data.json and print it.
+
+Hint:
+Use json.dump() for writing and json.load() for reading.
+
+4. Managing Database Connections:
+When working with databases, it's important to open and close connections properly. Use with to handle database connections.
+
+Exercise:
+
+Create a simple SQLite database with a table called students.
+
+Use the with statement to create a connection to the database, insert a few records, and then close the connection.
+
+Hint:
+Use the sqlite3.connect() method and remember to use with for opening and closing the connection.
+
+5. Using with for Locking Resources:
+When you work with threads or processes, you often need to use locks to prevent different parts of your program from accessing the same resource at the same time.
+
+Exercise:
+
+Create a simple program with two threads.
+
+Use the with statement to ensure that only one thread can access a resource at a time (like a shared counter).
+
+Hint:
+Use threading.Lock() with the with statement to ensure that only one thread accesses the shared resource.
+

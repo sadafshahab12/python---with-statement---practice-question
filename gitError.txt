@@ -1,0 +1,31 @@
+F:\giaic q3 hamzah syed\python practice\with-question-in-python>git pull origin main
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 996 bytes | 9.00 KiB/s, done.
+From https://github.com/sadafshahab12/python---with-statement---practice-question
+ * branch            main       -> FETCH_HEAD
+   f2bc40a..b1adf32  main       -> origin/main
+Auto-merging README.md
+CONFLICT (add/add): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+
+F:\giaic q3 hamzah syed\python practice\with-question-in-python>
+F:\giaic q3 hamzah syed\python practice\with-question-in-python>git add <file_with_conflict>
+The syntax of the command is incorrect.
+F:\giaic q3 hamzah syed\python practice\with-question-in-python>git add README.md         
+  
+F:\giaic q3 hamzah syed\python practice\with-question-in-python>git commit -m "Resolved merge conflicts"
+[main 5c3b8bc] Resolved merge conflicts
+
+F:\giaic q3 hamzah syed\python practice\with-question-in-python>git push origin main
+Enumerating objects: 16, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (11/11), 1.89 KiB | 966.00 KiB/s, done.
+Total 11 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+To https://github.com/sadafshahab12/python---with-statement---practice-question.git       
+   b1adf32..5c3b8bc  main -> main
